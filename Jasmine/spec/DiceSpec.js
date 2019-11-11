@@ -22,7 +22,7 @@ describe("A die", function(){
 	var result = (die6.sides === die6.probabilities.length); // Will return true or false;
 	expect(result).toBe(true);
 	})
-	it("a die's probabilities array should not have any negative numbers.", function(){
+	it("probabilities array should not have any negative numbers.", function(){
 	var die6 = new Die(6, [1,1,1,1,1,1]);
 	var i = 0;
 	var result;
@@ -33,7 +33,7 @@ describe("A die", function(){
 	}
 	expect(result).toBe("No negative numbers found.");
 	});
-	it("a die's probabilities array should only contain integers", function(){
+	it("probabilities array should only contain integers", function(){
 	var die6 = new Die(6, [1,1,1,1,1,1]);
 	var i = 0;
 	var result;
@@ -44,7 +44,7 @@ describe("A die", function(){
 	}
 	expect(result).toBe("Only integers were found");
 	});
-	it("a die's probabilities array's elements should sum up to a number greater than 0", function(){
+	it("probabilities array's elements should sum up to a number greater than 0", function(){
 	var die6 = new Die(6, [1,1,1,1,1,1]);
 	var i = 0;
 	var sum = 0;
