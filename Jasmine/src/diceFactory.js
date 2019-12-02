@@ -16,7 +16,5 @@ class DieFactory{
 	}
 }
 
-/*
-var factory6 = new DieFactory(6);
-var die6 = factory6.makeDie();
-console.log(die6);*/
+
+module.exports = DieFactory;

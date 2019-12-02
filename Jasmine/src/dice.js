@@ -80,7 +80,4 @@ class Die{
 	}
 }
 
-var die6 = new Die(6, [1,4,3,1,0,1]);
-die6.createWeightedArray();
-die6.weightedDieRoll();
-console.log(die6.weightedDieValue);	
+module.exports = Die;

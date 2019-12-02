@@ -1,3 +1,5 @@
+var Die = require('../src/dice.js');
+var DieFactory = require('../src/diceFactory.js');
 
 describe("A die throw", function(){
 	it("should indicate a value between 1 and number of sides", function(){
